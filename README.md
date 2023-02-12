@@ -3451,6 +3451,7 @@ corresponding to when the API was available for use.
             {
                 "noteId":1502298033753,
                 "modelName": "Basic",
+                "deckName": "Default",
                 "tags":["tag","another_tag"],
                 "fields": {
                     "Front": {"value": "front content", "order": 0},
