@@ -1865,6 +1865,13 @@ class AnkiConnect:
 
         return result
 
+    @util.api()
+    def renderAllLatex(self):
+        out = self.window().col.media.render_all_latex(lambda *_: 1)
+        if out is not None:
+            _, error = out
+            raise Exception(error)
+        return True
 
 #
 # Entry
